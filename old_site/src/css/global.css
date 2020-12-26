@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+h1{
+	margin-top: 0vh;
+	margin-bottom: 3vh;
+	z-index:1;
+}
+.center{
+	margin: 0px;
+	padding: 0px;
+	background: url('../img/background.png') no-repeat center top;
+	background-size: cover;
+	/*    */  
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	/*    */  
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	font-family: 'Lato';
+
+}
+
+.brandname {
+	padding-top: 28vh;
+	margin-bottom: 0;
+	color: white;
+}
+
+
+a {
+	color: #FFFFFF;
+	text-decoration: none
+}
+
+#particles {
+  opacity: 0.2;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width:480px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+	
+  */
+  .brandname{
+  	font-size: 45px;
+  	padding-top: 34vh;
+  }
+
+  .social{
+	font-size: 17px;
+  }
+
+  .social, a {
+  	padding-left: 3px;
+  	padding-right: 3px;
+  }
+
+  .bot{
+  	font-size: 20px;
+  }
+
+}
+
+@media screen and (min-width:480px) and (max-width:800px) {
+  /* Target landscape smartphones, portrait tablets, narrow desktops
+	
+  */
+  .brandname{
+  	font-size: 60px;
+  	padding-top: 34vh;
+  }
+
+  .social{
+	font-size: 20px;
+  }
+
+  .social, a {
+  	padding-left: 5px;
+  	padding-right: 5px;
+  }
+
+  .bot{
+  	font-size: 25px;
+  }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1280px) {
+  /* 
+	
+  */
+  .brandname{
+  	font-size: 75px;
+  	padding-top: 36vh;
+  }
+
+  .social{
+	font-size: 28px;
+  }
+
+  .social, a {
+  	padding-left: 10px;
+  	padding-right: 10px;
+  }
+
+  .bot{
+  	font-size: 32px;
+  }
+
+}
+
+
+@media screen and (min-width:1280px) and (max-width:2048px) {
+  /* 
+	
+  */
+  .brandname{
+  	font-size: 100px;
+  	padding-top: 30vh;
+  }
+
+  .social{
+	font-size: 34px;
+  }
+
+  .social, a {
+  	padding-left: 15px;
+  	padding-right: 15px;
+  }
+
+  .bot{
+  	font-size: 38px;
+  }
+
+}
+
+@media screen and (min-width:2048px){
+  /* 
+	
+  */
+  .brandname{
+  	font-size: 130px;
+  	padding-top: 36vh;
+  }
+
+  .social{
+	font-size: 38px;
+  }
+
+  .social, a {
+  	padding-left: 20px;
+  	padding-right: 20px;
+  }
+
+  .bot{
+  	font-size: 42px;
+  }
+
+}
+
+.copyright {
+    position: absolute;
+    opacity: 0.6;
+    min-width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+.copyright a{
+    color: black;
+    margin:0;
+}
+
+#dnone{
+display:none;
+}
